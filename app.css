@@ -1,0 +1,76 @@
+body {
+  background-color: #f6e4b1;
+  font-family: "Nunito", sans-serif;
+}
+
+#navbar {
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: #3b3b89;
+}
+
+#navbar .nav-link {
+  color: #a0a3fb;
+}
+
+#navbar .nav-link:hover {
+  color: #cacffb;
+}
+
+#navbar .navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+a svg {
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 992px) {
+  .col-lg-6 img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.container-fluid {
+  padding: 0 20px;
+}
+.col-lg-6 h1 {
+  font-family: "poppins";
+  font-size: 4rem;
+}
+.judul {
+  margin-left: 50px;
+  /* padding-right: 100px; */
+  font-weight: 800;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.dua {
+  background-color: #ffd489;
+}
+
+.row {
+  width: 100%;
+}
+.col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.row {
+  margin: 0;
+}
+.blurb h2 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+.navbar.scrolled {
+  background-color: #c2ded1;
+  transition: background 500ms;
+}
